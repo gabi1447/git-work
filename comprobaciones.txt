@@ -1,0 +1,31 @@
+$ git log --oneline --graph --all
+* d1e6b44 Añade sombra al botón principal y cierra la issue #2
+*   da4a011 Resuelve el conflicto de cover.css
+|\  
+| * 3f6c563 Cambia el color del botón principal a verde oscuro
+* | 9298954 Cambia el color del botón principal a morado
+|/  
+*   d27c0ae Merge pull request #2 from gabi1447/custom-text
+|\  
+| * be8da15 Afina el eslogan de la portada
+| * af78d17 Ajusta el texto del pie de página
+| * 6e19daf Personaliza la portada para la startup
+* | b4c910c Cambiar URL del repositorio remoto en docs/index.md
+|/  
+* 13cbb7e Añade documentación con MkDocs e integración continua
+* 28b69de Añade la página de la startup y su hoja de estilos
+* 7421f16 Initial commit
+
+$ git remote -v
+espejo	git@github.com:gabi1447/git-work-espejo.git (fetch)
+espejo	git@github.com:gabi1447/git-work-espejo.git (push)
+origin	git@github.com:gabi1447/git-work.git (fetch)
+origin	git@github.com:gabi1447/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+Gabriel <90766958+gabi1447@users.noreply.github.com>
+Gabriel Pacheco <gabrielpachecoyanezit@gmail.com>
+Gabriel Pacheco Yáñez <gabrielpachecotec@gmail.com>
